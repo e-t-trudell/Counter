@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>land</title>
+</head>
+<body>
+    <h2>Counter</h2>
+    <p>{{session['count']}}</p>
+    <form>
+        <!-- add action submit for this when you add the +2 -->
+        <input value="Count" name="Count"></input>
+    </form>
+    <form action="/destroy_session">
+        <input type='submit' value="Reset" name="Reset"></input>
+    </form>
+    
+</body>
+</html>
